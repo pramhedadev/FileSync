@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
-import box from '../box.png'
+import explorerIcon from '../explorer-icon.png'; 
 
 class Navbar extends Component {
 
@@ -13,7 +13,7 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={box} width="30" height="30" className="align-top" alt="" />
+          <img src={explorerIcon} width="30" height="30" className="align-top" alt="" />
           File Store
         </a>
         <ul className="navbar-nav px-3">

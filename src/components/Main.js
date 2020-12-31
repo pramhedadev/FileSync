@@ -29,7 +29,7 @@ class Main extends Component {
                             required />
                       </div>
                     <input type="file" onChange={this.props.captureFile} className="text-white text-monospace"/>
-                    <button type="submit" className="btn-primary btn-block"><b>Upload!</b></button>
+                    <button type="submit" className="btn-primary btn-block"><b>Upload</b></button>
                   </form>
               </div>
 
